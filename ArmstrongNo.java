@@ -2,24 +2,21 @@ import java.util.Scanner;
 
 public class ArmstrongNo {
     public static void main(String args[]) {
-        int inp_no, temp, sum = 0, rem;
+        int inp_no, sum = 0;
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a no : ");
         inp_no = sc.nextInt();
         inp_no = Math.abs(inp_no);
 
-        temp = inp_no;
-        while (inp_no > 0) {
-            rem = inp_no % 10;
-            sum = sum + (rem * rem * rem);
-            inp_no = inp_no / 10;
-        }
+        for (int i = inp_no; i >=1 ; i = i / 10) {
+            sum = sum + ((i % 10) * (i % 10) * (i % 10));
+        } 
 
-        if(temp == sum)
-            System.out.println(temp + " is armstrong no");
+        if(inp_no == sum)
+            System.out.println(inp_no + " is armstrong no");
         else
-            System.out.println(temp + " is not armstrong no");
+            System.out.println(inp_no + " is not armstrong no");
 
         sc.close();
     }    
