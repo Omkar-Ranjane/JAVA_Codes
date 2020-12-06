@@ -50,3 +50,33 @@ Demonstrate Simple Inheritance
 
 ### 14. InheritanceDemo2.java
 Demonstrate practical example of inheritance
+
+### PascalTriangle.java
+Demonstrate pascal triangle pattern
+```sh
+> Enter a no of lines : 5
+> 1
+  1 2
+  1 3 3
+  1 4 6 4
+  1 5 10 10 5
+```
+
+### PrimeNo.java
+Demonstrate input no is prime or not
+
+### Palindrome.java
+Demonstrate input no is prime or not
+
+### LinearSearch.java
+Demonstrate linear search algorithm
+
+### BubbleSort.java
+Demonstrate bubble sort algorithm
+
+### ArmstrongNo.java
+Demonstrate input no is armstrong or not
+
+### Fibonacci.java
+Demonstrate the fibonacci series
+
